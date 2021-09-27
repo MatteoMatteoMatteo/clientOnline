@@ -1,0 +1,32 @@
+.wrapMe {
+  width: 1050px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.newNav {
+  width: 100%;
+  background-color: var(--lightBlack);
+}
+
+.newNavContent {
+  width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emptyNav {
+  height: 60px;
+}
+
+.back {
+  cursor: pointer;
+  padding: 20px;
+  margin: 0px;
+}
+
+.back:hover {
+  background: var(--blueDark);
+}

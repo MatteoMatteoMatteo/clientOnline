@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.accept {
+  border: solid 3px white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.accept:hover {
+  background-color: var(--niceGreen);
+}
+
+.otherMusician {
+  border: 3px white solid;
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.calling {
+  padding: 20px;
+}
+
+.otherMusician:hover {
+  background-color: var(--niceGreen);
+  cursor: pointer;
+}
+
+.otherMusician > div {
+  margin-right: 30px;
+}
+
+.actionHolder {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionHolder > button {
+  margin-left: 20px;
+  border: solid 2px white;
+  padding: 20px;
+}

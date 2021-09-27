@@ -1,0 +1,26 @@
+.grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  letter-spacing: 1px;
+  width: 400px;
+}
+
+.visualizer {
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 8px;
+  align-self: baseline;
+}
+
+.muteButton {
+  border: solid 2px white;
+  padding: 10px;
+  transition: 200ms;
+}
+
+.muteButton:hover {
+  background-color: var(--blueDark);
+  transition: 200ms;
+}
